@@ -1,0 +1,21 @@
+{
+  "name": "web-service-render",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server for creating and deploying Deno web services to render.com",
+  "devDependencies": {
+    "@types/node": "^22.10.3",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
